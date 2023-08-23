@@ -38,6 +38,7 @@ class IberiaIO
 {
 public:
     bool FileExist(const char *fileName);
+    bool Exists(std::string fileName);
     int CountLines(char *filename);
     int NextLineNumber(char *filename);
     void WriteLine(char *filename, char *str);

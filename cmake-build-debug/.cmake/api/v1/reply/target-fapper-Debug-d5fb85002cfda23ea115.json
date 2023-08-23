@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Fapper"
+			"path" : "fapper"
 		}
 	],
 	"backtrace" : 1,
@@ -49,11 +49,16 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		}
 	],
-	"id" : "Fapper::@6890427a1f51a3e7e1df",
+	"id" : "fapper::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +74,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Fapper",
-	"nameOnDisk" : "Fapper",
+	"name" : "fapper",
+	"nameOnDisk" : "fapper",
 	"paths" : 
 	{
 		"build" : ".",
@@ -82,7 +87,12 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -92,6 +102,36 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "IberiaIO.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Iberia.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "IberiaDataStore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "IberiaMisc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "settings.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

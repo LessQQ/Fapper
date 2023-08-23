@@ -41,35 +41,65 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/robb/Development/Fapper/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Fapper
+# Object build statements for EXECUTABLE target fapper
 
 
 #############################################
-# Order-only phony target for Fapper
+# Order-only phony target for fapper
 
-build cmake_object_order_depends_target_Fapper: phony || CMakeFiles/Fapper.dir
+build cmake_object_order_depends_target_fapper: phony || CMakeFiles/fapper.dir
 
-build CMakeFiles/Fapper.dir/main.cpp.o: CXX_COMPILER__Fapper_unscanned_Debug /home/robb/Development/Fapper/main.cpp || cmake_object_order_depends_target_Fapper
-  DEP_FILE = CMakeFiles/Fapper.dir/main.cpp.o.d
+build CMakeFiles/fapper.dir/main.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/main.cpp || cmake_object_order_depends_target_fapper
+  DEP_FILE = CMakeFiles/fapper.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Fapper.dir
-  OBJECT_FILE_DIR = CMakeFiles/Fapper.dir
+  OBJECT_DIR = CMakeFiles/fapper.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapper.dir
+
+build CMakeFiles/fapper.dir/IberiaIO.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/IberiaIO.cpp || cmake_object_order_depends_target_fapper
+  DEP_FILE = CMakeFiles/fapper.dir/IberiaIO.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/fapper.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapper.dir
+
+build CMakeFiles/fapper.dir/Iberia.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/Iberia.cpp || cmake_object_order_depends_target_fapper
+  DEP_FILE = CMakeFiles/fapper.dir/Iberia.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/fapper.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapper.dir
+
+build CMakeFiles/fapper.dir/IberiaDataStore.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/IberiaDataStore.cpp || cmake_object_order_depends_target_fapper
+  DEP_FILE = CMakeFiles/fapper.dir/IberiaDataStore.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/fapper.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapper.dir
+
+build CMakeFiles/fapper.dir/IberiaMisc.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/IberiaMisc.cpp || cmake_object_order_depends_target_fapper
+  DEP_FILE = CMakeFiles/fapper.dir/IberiaMisc.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/fapper.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapper.dir
+
+build CMakeFiles/fapper.dir/settings.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/settings.cpp || cmake_object_order_depends_target_fapper
+  DEP_FILE = CMakeFiles/fapper.dir/settings.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/fapper.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapper.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Fapper
+# Link build statements for EXECUTABLE target fapper
 
 
 #############################################
-# Link the executable Fapper
+# Link the executable fapper
 
-build Fapper: CXX_EXECUTABLE_LINKER__Fapper_Debug CMakeFiles/Fapper.dir/main.cpp.o
+build fapper: CXX_EXECUTABLE_LINKER__fapper_Debug CMakeFiles/fapper.dir/main.cpp.o CMakeFiles/fapper.dir/IberiaIO.cpp.o CMakeFiles/fapper.dir/Iberia.cpp.o CMakeFiles/fapper.dir/IberiaDataStore.cpp.o CMakeFiles/fapper.dir/IberiaMisc.cpp.o CMakeFiles/fapper.dir/settings.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/Fapper.dir
+  OBJECT_DIR = CMakeFiles/fapper.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Fapper
-  TARGET_PDB = Fapper.dbg
+  TARGET_FILE = fapper
+  TARGET_PDB = fapper.dbg
 
 
 #############################################
@@ -105,7 +135,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/robb/Development/Fapper/cmake-build-debug
 
-build all: phony Fapper
+build all: phony fapper
 
 # =============================================================================
 # Built-in targets

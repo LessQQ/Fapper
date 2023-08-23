@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Fapper::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Fapper-Debug-ba088634430311dd604c.json",
-					"name" : "Fapper",
+					"id" : "fapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fapper-Debug-d5fb85002cfda23ea115.json",
+					"name" : "fapper",
 					"projectIndex" : 0
 				}
 			]

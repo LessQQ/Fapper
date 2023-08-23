@@ -14,7 +14,12 @@ bool IberiaIO::FileExist(const char *fileName)
     inFile.open(fileName);
     return inFile.good();
 }
-
+bool Exists(std::string fileName)
+{
+    ifstream inFile;
+    inFile.open(fileName);
+    return inFile.good();
+}
 int IberiaIO::CountLines(char *filename)
 {
     int count = 0;
