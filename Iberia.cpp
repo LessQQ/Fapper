@@ -14,7 +14,8 @@ double Iberia::CreateDataStore(const char *path, const char *fileName)
 	std::string strPath = path;
 	std::string strFileName = fileName;
 	std::string fqn = _ibHelp.MakeFullFileName(strPath, "/", strFileName);
-	double result = CreateDS(fqn.c_str());
+	_fileName = fileName;
+    double result = CreateDS(fqn.c_str());
 	return result;
 }
 double Iberia::LoadDataStore(const char *path, const char *fileName)
@@ -61,6 +62,8 @@ int Iberia::SaveDS(const char *fileName)
 }
 bool Iberia::Save()
 {
+    std::cout << "saving to '" + _fileName + "'" << std::endl;
+    std::cout << "contains " << _dataStore.Count() << " entries" << std::endl;
 	_dataStore.Save(_fileName.c_str());
 	return true;
 }
@@ -109,7 +112,7 @@ void Iberia::LoadIDS(std::string fn)
 // Added on some fileName stuff
 void Iberia::SetFileName(std::string fileName)
 {
-	//std::cout << "File Name: '" << fileName << "'" << std::endl;
+	std::cout << "File Name: '" << fileName << "'" << std::endl;
 	_fileName = fileName;
 }
 void Iberia::SetFileName(const char *fileName)

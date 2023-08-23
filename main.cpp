@@ -11,16 +11,16 @@ int main(int argc, char* argv[])
 
     if (CheckConfigFile())
     {
-        iberia.LoadDataStore("/etc/fap/","fapper.ids");
+        iberia.LoadDataStore("/etc/fap","fapper.ids");
     }
     else
     {
-        iberia.CreateDataStore("/etc/fap/", "fapper.ids");
+        iberia.CreateDataStore("/etc/fap", "fapper.ids");
         iberia.Add("errors", "~/.fap/error.log");
         iberia.Add("bank","~/.fap/bank.ids");
         iberia.Add("release", "~/.fap/release");
         iberia.Add("tmp","~/.fap/tmp");
-        iberia.Save();
+        iberia.SaveDataStore("/etc/fap", "fapper.ids");
     }
 
     return 0;
