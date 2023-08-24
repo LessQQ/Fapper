@@ -107,31 +107,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "IberiaIO.cpp",
+			"path" : "Iberia/IberiaIO.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Iberia.cpp",
+			"path" : "Iberia/Iberia.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "IberiaDataStore.cpp",
+			"path" : "Iberia/IberiaDataStore.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "IberiaMisc.cpp",
+			"path" : "Iberia/IberiaMisc.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "settings.cpp",
+			"path" : "Iberia/settings.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

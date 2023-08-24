@@ -4,8 +4,8 @@ project(Fapper)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(fapper main.cpp
-        IberiaIO.cpp
-        Iberia.cpp
-        IberiaDataStore.cpp
-        IberiaMisc.cpp
-        settings.cpp)
+        Iberia/IberiaIO.cpp
+        Iberia/Iberia.cpp
+        Iberia/IberiaDataStore.cpp
+        Iberia/IberiaMisc.cpp
+        Iberia/settings.cpp)
