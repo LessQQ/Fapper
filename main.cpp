@@ -4,7 +4,7 @@
 #include "Iberia/IberiaIO.hpp"
 
 const std::string path("/etc/fap");
-const std::string fileName("fapper.ids");
+const std::string fileName("fap.config");
 
 bool CheckConfigFile();
 void CreateBase();
@@ -18,7 +18,8 @@ int main(int argc, char* argv[]) {
         iberia.LoadDataStore(path.c_str(), fileName.c_str());
     }
     else {
-        CreateBase();
+        std::cout << "fap.config not found!" << std::endl;
+        //exit(1);
     }
 
     if (argc < 2) {
@@ -28,7 +29,12 @@ int main(int argc, char* argv[]) {
 
     std::string command(argv[1]);
     if (command == "create") {
-        CreateBase();
+        iberia.CreateDataStore(path.c_str(), fileName.c_str());
+        iberia.Add("errors", "~/.fap/error.log");
+        iberia.Add("bank","~/.fap/bank.ids");
+        iberia.Add("release", "~/.fap/release");
+        iberia.Add("tmp","~/.fap/tmp");
+        iberia.SaveDataStore(path.c_str(), fileName.c_str());
     }
     else if (command == "get") {
         if (iberia.Contains(argv[2])) {
