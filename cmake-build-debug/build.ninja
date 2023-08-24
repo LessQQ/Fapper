@@ -41,65 +41,65 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/robb/Development/Fapper/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target fapper
+# Object build statements for EXECUTABLE target fapconfig
 
 
 #############################################
-# Order-only phony target for fapper
+# Order-only phony target for fapconfig
 
-build cmake_object_order_depends_target_fapper: phony || CMakeFiles/fapper.dir
+build cmake_object_order_depends_target_fapconfig: phony || CMakeFiles/fapconfig.dir
 
-build CMakeFiles/fapper.dir/main.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/main.cpp || cmake_object_order_depends_target_fapper
-  DEP_FILE = CMakeFiles/fapper.dir/main.cpp.o.d
+build CMakeFiles/fapconfig.dir/main.cpp.o: CXX_COMPILER__fapconfig_unscanned_Debug /home/robb/Development/Fapper/main.cpp || cmake_object_order_depends_target_fapconfig
+  DEP_FILE = CMakeFiles/fapconfig.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/fapper.dir
-  OBJECT_FILE_DIR = CMakeFiles/fapper.dir
+  OBJECT_DIR = CMakeFiles/fapconfig.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapconfig.dir
 
-build CMakeFiles/fapper.dir/Iberia/IberiaIO.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/Iberia/IberiaIO.cpp || cmake_object_order_depends_target_fapper
-  DEP_FILE = CMakeFiles/fapper.dir/Iberia/IberiaIO.cpp.o.d
+build CMakeFiles/fapconfig.dir/Iberia/IberiaIO.cpp.o: CXX_COMPILER__fapconfig_unscanned_Debug /home/robb/Development/Fapper/Iberia/IberiaIO.cpp || cmake_object_order_depends_target_fapconfig
+  DEP_FILE = CMakeFiles/fapconfig.dir/Iberia/IberiaIO.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/fapper.dir
-  OBJECT_FILE_DIR = CMakeFiles/fapper.dir/Iberia
+  OBJECT_DIR = CMakeFiles/fapconfig.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapconfig.dir/Iberia
 
-build CMakeFiles/fapper.dir/Iberia/Iberia.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/Iberia/Iberia.cpp || cmake_object_order_depends_target_fapper
-  DEP_FILE = CMakeFiles/fapper.dir/Iberia/Iberia.cpp.o.d
+build CMakeFiles/fapconfig.dir/Iberia/Iberia.cpp.o: CXX_COMPILER__fapconfig_unscanned_Debug /home/robb/Development/Fapper/Iberia/Iberia.cpp || cmake_object_order_depends_target_fapconfig
+  DEP_FILE = CMakeFiles/fapconfig.dir/Iberia/Iberia.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/fapper.dir
-  OBJECT_FILE_DIR = CMakeFiles/fapper.dir/Iberia
+  OBJECT_DIR = CMakeFiles/fapconfig.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapconfig.dir/Iberia
 
-build CMakeFiles/fapper.dir/Iberia/IberiaDataStore.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/Iberia/IberiaDataStore.cpp || cmake_object_order_depends_target_fapper
-  DEP_FILE = CMakeFiles/fapper.dir/Iberia/IberiaDataStore.cpp.o.d
+build CMakeFiles/fapconfig.dir/Iberia/IberiaDataStore.cpp.o: CXX_COMPILER__fapconfig_unscanned_Debug /home/robb/Development/Fapper/Iberia/IberiaDataStore.cpp || cmake_object_order_depends_target_fapconfig
+  DEP_FILE = CMakeFiles/fapconfig.dir/Iberia/IberiaDataStore.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/fapper.dir
-  OBJECT_FILE_DIR = CMakeFiles/fapper.dir/Iberia
+  OBJECT_DIR = CMakeFiles/fapconfig.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapconfig.dir/Iberia
 
-build CMakeFiles/fapper.dir/Iberia/IberiaMisc.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/Iberia/IberiaMisc.cpp || cmake_object_order_depends_target_fapper
-  DEP_FILE = CMakeFiles/fapper.dir/Iberia/IberiaMisc.cpp.o.d
+build CMakeFiles/fapconfig.dir/Iberia/IberiaMisc.cpp.o: CXX_COMPILER__fapconfig_unscanned_Debug /home/robb/Development/Fapper/Iberia/IberiaMisc.cpp || cmake_object_order_depends_target_fapconfig
+  DEP_FILE = CMakeFiles/fapconfig.dir/Iberia/IberiaMisc.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/fapper.dir
-  OBJECT_FILE_DIR = CMakeFiles/fapper.dir/Iberia
+  OBJECT_DIR = CMakeFiles/fapconfig.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapconfig.dir/Iberia
 
-build CMakeFiles/fapper.dir/Iberia/settings.cpp.o: CXX_COMPILER__fapper_unscanned_Debug /home/robb/Development/Fapper/Iberia/settings.cpp || cmake_object_order_depends_target_fapper
-  DEP_FILE = CMakeFiles/fapper.dir/Iberia/settings.cpp.o.d
+build CMakeFiles/fapconfig.dir/Iberia/settings.cpp.o: CXX_COMPILER__fapconfig_unscanned_Debug /home/robb/Development/Fapper/Iberia/settings.cpp || cmake_object_order_depends_target_fapconfig
+  DEP_FILE = CMakeFiles/fapconfig.dir/Iberia/settings.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/fapper.dir
-  OBJECT_FILE_DIR = CMakeFiles/fapper.dir/Iberia
+  OBJECT_DIR = CMakeFiles/fapconfig.dir
+  OBJECT_FILE_DIR = CMakeFiles/fapconfig.dir/Iberia
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target fapper
+# Link build statements for EXECUTABLE target fapconfig
 
 
 #############################################
-# Link the executable fapper
+# Link the executable fapconfig
 
-build fapper: CXX_EXECUTABLE_LINKER__fapper_Debug CMakeFiles/fapper.dir/main.cpp.o CMakeFiles/fapper.dir/Iberia/IberiaIO.cpp.o CMakeFiles/fapper.dir/Iberia/Iberia.cpp.o CMakeFiles/fapper.dir/Iberia/IberiaDataStore.cpp.o CMakeFiles/fapper.dir/Iberia/IberiaMisc.cpp.o CMakeFiles/fapper.dir/Iberia/settings.cpp.o
+build fapconfig: CXX_EXECUTABLE_LINKER__fapconfig_Debug CMakeFiles/fapconfig.dir/main.cpp.o CMakeFiles/fapconfig.dir/Iberia/IberiaIO.cpp.o CMakeFiles/fapconfig.dir/Iberia/Iberia.cpp.o CMakeFiles/fapconfig.dir/Iberia/IberiaDataStore.cpp.o CMakeFiles/fapconfig.dir/Iberia/IberiaMisc.cpp.o CMakeFiles/fapconfig.dir/Iberia/settings.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/fapper.dir
+  OBJECT_DIR = CMakeFiles/fapconfig.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = fapper
-  TARGET_PDB = fapper.dbg
+  TARGET_FILE = fapconfig
+  TARGET_PDB = fapconfig.dbg
 
 
 #############################################
@@ -135,7 +135,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/robb/Development/Fapper/cmake-build-debug
 
-build all: phony fapper
+build all: phony fapconfig
 
 # =============================================================================
 # Built-in targets

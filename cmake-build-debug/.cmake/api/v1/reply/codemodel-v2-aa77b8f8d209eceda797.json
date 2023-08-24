@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "fapper::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fapper-Debug-f55eb10776229103e096.json",
-					"name" : "fapper",
+					"id" : "fapconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fapconfig-Debug-b1ebdcf4d57150fc1d31.json",
+					"name" : "fapconfig",
 					"projectIndex" : 0
 				}
 			]

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "fapper"
+			"path" : "fapconfig"
 		}
 	],
 	"backtrace" : 1,
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"id" : "fapper::@6890427a1f51a3e7e1df",
+	"id" : "fapconfig::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -74,8 +74,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "fapper",
-	"nameOnDisk" : "fapper",
+	"name" : "fapconfig",
+	"nameOnDisk" : "fapconfig",
 	"paths" : 
 	{
 		"build" : ".",
